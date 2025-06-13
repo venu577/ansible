@@ -2,12 +2,12 @@
   hosts: local
   connection: local
   vars_promt:
-  - name: USERNAME
-    prompt: "enter your USERNAME"
-    private: true # if you want to hide the input
-  - name: PASSWORD
-    prompt: "enter your PASSWORD"
-    private: true # if you want to hide the input
+   - name: USERNAME
+     prompt: "enter your USERNAME"
+     private: true # if you want to hide the input
+   - name: PASSWORD
+     prompt: "enter your PASSWORD"
+     private: true # if you want to hide the input
 
   tasks:
   - name: print user information
