@@ -1,7 +1,7 @@
 - name: variables from prompt
   hosts: local
   connection: local
-  vars_promt:
+  vars_prompt:
    - name: USERNAME
      prompt: "enter your USERNAME"
      private: true # if you want to hide the input
