@@ -1,0 +1,21 @@
+- name: game and palyers
+  hosts: local
+  connection: local
+  tasks:
+  - name: print players
+    ansible.builtin.debug:
+     msg: "players are 100"
+  - name: print game
+    ansible.builtin.debug:
+      msg: "game is cricket"  
+
+- name: game and players
+  hosts: local
+  connection: local
+  tasks:
+  - name: print players
+    ansible.builtin.debug:
+     msg: "players are 100"
+  - name: print game
+    ansible.builtin.debug:
+      msg: "game is football"       
