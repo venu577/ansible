@@ -1,6 +1,6 @@
 - name: play level variables
   hosts: local
-  connections: local
+  connection: local
   vars:
     COURSE: ansible
     DURATION: 20hrs
