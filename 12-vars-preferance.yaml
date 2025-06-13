@@ -11,13 +11,13 @@
      private: false # if you want to show the input
   tasks:
   - name: print greetings
-    vars:
-      GREETING: "hello from task"
+    #vars:
+     # GREETING: "hello from task"
     ansible.builtin.debug:
        msg: "{{ GREETING }}"
 
-# 1-
-# 2-
+# 1-arguments
+# 2-task
 # 3-
 # 4-
 # 5-
