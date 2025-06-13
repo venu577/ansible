@@ -1,0 +1,11 @@
+- name: play level variables
+  hosts: local
+  connections: local
+  vars:
+    COURSE: ansible
+    DURATION: 20hrs
+    TRAINER: Venu
+  tasks:
+  - name: print course information
+    ansible.builtin.debug:
+      msg: "Course is {{ COURSE }}, Duration is {{ DURATION }}, Trainer is {{ TRAINER }}"   
