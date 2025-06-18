@@ -4,4 +4,5 @@
   tasks:
    - name: check undefined variable
      ansible.builtin.debug:
-      msg: "hello {{ person }}"
+      msg: "hello {{ person | default('venu') }}" 
+      #if person is not defined then it will take venu as default value
