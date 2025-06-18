@@ -24,7 +24,7 @@
 
    - name: convert list into map
      vars:
-      course:
+      course_list:
        - {'key': 'name', 'value': 'Ansible'}
        - {'key': 'duration', 'value': '2 months'}
        - {'key': 'trainer', 'value': 'Venu'}       
