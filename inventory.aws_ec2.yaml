@@ -5,7 +5,7 @@ filters:
  tag:name: frontend
  instance-state-name: running
 hostnames:
-- private-ip-address
+ - ip-address
 keyd_groups:
 - key: tags.name
   prefix: ""
