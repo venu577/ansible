@@ -6,5 +6,9 @@ filters:
  instance-state-name: running
 hostnames:
  - private-ip-address
+keyd_groups:
+- key: tags.name
+  prefix: ""
+  separator: "" 
 compose: 
  ansible_host: private-ip-address  
