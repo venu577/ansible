@@ -11,7 +11,7 @@
    ami: ami-09c813fb71547fc4f
   tasks:
    - name: create ec2
-     amazon.builtin.ec2_instances:
+     amazon.aws.ec2_instances:
       name: "{{ item }}"
       vpc_subnet_id: "{{ subnet_id }}"
       instance_type: t3.micro
