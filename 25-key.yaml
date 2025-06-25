@@ -1,6 +1,6 @@
 - name: ping the server
   hosts: keys 
+  become: yes 
   tasks:
   - name: ping the server
     ansible.builtin.ping:
-    
